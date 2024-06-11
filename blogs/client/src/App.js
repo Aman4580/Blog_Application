@@ -5,7 +5,7 @@ import Home from './components/home/Home';
 import Header from './components/header/Header';
 import { useState } from 'react';
 import CreatePost from './components/create/CreatePost';
-
+import About from './components/about/About';
 // Define the PrivateRoute component
 const PrivateRoute = ({ isAuthenticate }) => {
   return isAuthenticate ? <>
@@ -27,6 +27,9 @@ function App() {
           </Route>
           <Route path="/create" element={<PrivateRoute isAuthenticate={isAuthenticate} />}>
             <Route index element={<CreatePost />} />
+          </Route>
+          <Route path="/about" element={<PrivateRoute isAuthenticate={isAuthenticate} />}>
+            <Route index element={<About />} />
           </Route>
         </Routes>
       </div>
