@@ -6,6 +6,7 @@ import Header from './components/header/Header';
 import { useState } from 'react';
 import CreatePost from './components/create/CreatePost';
 import About from './components/about/About';
+import Contact from './components/contact/Contact';
 // Define the PrivateRoute component
 const PrivateRoute = ({ isAuthenticate }) => {
   return isAuthenticate ? <>
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/about" element={<PrivateRoute isAuthenticate={isAuthenticate} />}>
             <Route index element={<About />} />
+          </Route>
+          <Route path="/contact" element={<PrivateRoute isAuthenticate={isAuthenticate} />}>
+            <Route index element={<Contact />} />
           </Route>
         </Routes>
       </div>
