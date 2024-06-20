@@ -49,6 +49,7 @@ const Comment = ({ comment, setToggle }) => {
                 { comment.name === account.username && <DeleteIcon onClick={() => removeComment()} /> }
             </Container>
             <Typography>{comment.comments}</Typography>
+            <p>My name is aman verma</p>
         </Component>
     )
 }
