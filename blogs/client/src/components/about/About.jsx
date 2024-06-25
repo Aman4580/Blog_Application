@@ -45,6 +45,7 @@ const About = () => {
                             <Email />
                         </Link>.
                 </Text>
+                <p>My Name is aman Verma</p>
             </Wrapper>
         </Box>
     )
