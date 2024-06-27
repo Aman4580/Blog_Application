@@ -32,7 +32,8 @@ const Contact = () => {
                     <Link href="https://www.instagram.com/codeforinterview/" color="inherit" target="_blank">
                         <Instagram/>
                     </Link>
-                    or send me an Email 
+                    or send me an Email
+                    this is mail section  
                     <Link href="mailto:amanverma7124@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
                         <Email />
                     </Link>.
