@@ -83,9 +83,9 @@ const Login = ({setUserAuthenticate}) => {
         const { name, username, password } = signup;
         try {
             const response = await signUp(name, username, password);
-            console.log("Signup successful", response);
+            console.log("Signup successful bu user", response);
         } catch (error) {
-            console.error("Signup failed", error);
+            console.error("Signup failed due to error", error);
         }
     };
 
