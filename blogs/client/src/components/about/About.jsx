@@ -28,8 +28,7 @@ const About = () => {
                 <Typography variant="h3">Code for Interview</Typography>
                 <Text variant="h5">I'm a Software Engineer based in India. 
                     I've built websites, desktop applications and corporate software.<br />
-                    If you are interested, you can view some of my favorite projects here.
-                    In my project , snake game ,studyNotation ,Netflix clone are mentationed.
+                    If you are interested, 
                     <Box component="span" style={{ marginLeft: 5 }}>
                         <Link href="https://github.com/kunaltyagi9" color="inherit" target="_blank"><GitHub /></Link>
                     </Box>
