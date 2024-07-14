@@ -9,5 +9,9 @@ export const login = async (username, password) => {
   console.log("Login api run successfully  "  , endpoints.LOGIN_API);
     return apiConnector('POST', endpoints.LOGIN_API, { username, password });
 };
+export const createBlog = async (username, password) => {
+  console.log("Login api run successfully  "  , endpoints.LOGIN_API);
+    return apiConnector('POST', endpoints.LOGIN_API, { username, password });
+};
 
   
