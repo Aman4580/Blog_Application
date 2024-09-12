@@ -7,6 +7,7 @@ const User = require('../model/user.js');
 dotenv.config();
 
 exports.signupUser = async (req, res) => {
+    console.log("sinnup api run truly");
     try {
         const { name, username, password } = req.body;
 
